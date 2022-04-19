@@ -1,0 +1,63 @@
+.generale {
+    display: flex;
+    margin: 20px;
+}
+
+.generale .line {
+    border: 1px solid black;
+    width: 200px;
+    margin: 10px 0 10px 0;
+}
+
+.g-sx {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: medium;
+    font-style: inherit;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.g-sx .nome {
+    font-size: xx-large;
+}
+
+img{
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+}
+
+.g-dx {
+    margin: 0 0 0 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid blue;
+    padding: 10px;
+    background-color: #fffacd;
+
+}
+
+
+.g-dx .title {
+    background-color: greenyellow;
+    color: black;
+    font-style: oblique;
+    font-size: medium;
+    margin: 0 0 15px 0;
+    border: 3px solid green;
+    border-radius: 5px;
+}
+
+.sottoparagrafo{
+    margin: 20px 0 0 0;
+}
+
+.g-dx .title-parag{
+    border: 2px solid transparent;
+    margin: 0 0 -15px 0;
+}
+
+
